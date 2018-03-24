@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-23T16:35:15.080Z</updated>
+  <updated>2018-03-24T08:34:21.161Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -16,7 +16,7 @@
     <link href="http://yoursite.com/posts/58643/"/>
     <id>http://yoursite.com/posts/58643/</id>
     <published>2018-03-21T06:08:44.000Z</published>
-    <updated>2018-03-23T16:35:15.080Z</updated>
+    <updated>2018-03-24T08:34:21.161Z</updated>
     
     <content type="html"><![CDATA[<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><ul><li>由于一些限制，在校外使用校园一卡通系统或是在中国知网查阅下载资料都远不如校内网来得顺畅方便。这篇教程就是为了带同学们在校外通过虚拟专用网络使用校内网，从而获得在校园网络环境下使用一卡通系统或是中国知网的体验。</li><li>教程基于学校 <a href="http://nic.njxzc.edu.cn/321/list.htm" target="_blank" rel="noopener">信息化建设与管理办公室 VPN 服务安装指南</a> ，这篇博文只是做一个在线集中页面。</li><li>教程只适用南京晓庄学院。</li></ul><a id="more"></a><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><h3 id="下载安装客户端"><a href="#下载安装客户端" class="headerlink" title="下载安装客户端"></a>下载安装客户端</h3><ul><li><p>打开浏览器，在地址栏输入 <a href="https://221.226.191.50:4433" target="_blank" rel="noopener">https://221.226.191.50:4433</a> 访问。</p><ul><li>如果出现下图的提示，点击下方的「详细信息」<img src="https://d.pr/on46wj.jpg" alt="安全提示"></li><li>然后「继续转到网页」</li></ul><p><img src="https://d.pr/MmuDkN.jpg" alt="继续访问"></p></li><li><p>输入自己的信息门户账号密码进行验证<img src="https://d.pr/XIu9lo.jpg" alt="认证页面"></p></li><li><p>按照提示下载 VPN 客户端并安装</p></li></ul><h3 id="配置信息"><a href="#配置信息" class="headerlink" title="配置信息"></a>配置信息</h3><ul><li><p>安装好客户端后打开，配置服务器、端口信息</p><p><img src="https://d.pr/i/IZjObs.jpg" alt="配置信息"></p><p>如图，服务器地址为 221.226.191.50，端口为 4433.用户名和密码输入自己信息门户的账号密码。</p></li><li><p>点击登录，客户端提示「已经连接」后就能使用校内网。<img src="https://d.pr/i/grkuPa.jpg" alt="已经连接提示"></p></li></ul><h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>教程以基于 Android 7.1.2 的 Resurrection Remix OS 为例，不同 Android 手机的设置步骤可能有差异。</p><h3 id="配置-VPN"><a href="#配置-VPN" class="headerlink" title="配置 VPN"></a>配置 VPN</h3><ul><li>打开「设置」-无线和网络下的「更多」，选择「VPN」<img src="https://d.pr/8QJVke.jpg" alt="无线和网络"></li><li>点击右上角加号按钮，添加 VPN 配置文件<img src="https://d.pr/TTgiM1.jpg" alt="添加 VPN 配置文件"></li><li>编辑 VPN 配置文件，没有提到的地方不用编辑<img src="https://d.pr/lBcCQ3.jpg" alt="配置"><ul><li>「名称」可以自定义</li><li>类型点右边三角弹出候选列表选择「L2TP/IPSec PSK」</li><li>「服务器地址」输入 221.226.0.120</li><li>「IPSec 预共享密钥」输入 123456</li><li>在「用户名」和「密码」处分别输入自己信息门户的账号密码</li><li>保存</li></ul></li></ul><h3 id="连接-VPN"><a href="#连接-VPN" class="headerlink" title="连接 VPN"></a>连接 VPN</h3><ul><li>在「VPN」页面点击已保存的 VPN 配置文件</li><li>点击「连接」，连接成功后就能使用校内网</li></ul><h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><h3 id="配置-VPN-1"><a href="#配置-VPN-1" class="headerlink" title="配置 VPN"></a>配置 VPN</h3><ul><li>打开「设置」-「通用」-「VPN」<img src="https://d.pr/TcAkdB.jpg" alt="设置"></li><li>点击「添加 VPN 配置」</li><li>编辑 VPN 配置文件，没有提到的地方不用编辑<img src="https://d.pr/osOIJa.jpg" alt="编辑 VPN 配置文件"><ul><li>「类型」选择为「L2TP」</li><li>「描述」可以自定义</li><li>「服务器」输入 221.226.0.120</li><li>「帐户」和「密码」分别输入自己信息门户的账号密码</li><li>「密钥」输入 123456</li><li>点击右上角完成</li></ul></li><li>勾选刚配置好的 VPN 配置文件，打开连接开关，连接成功后就能使用校园网<img src="https://d.pr/1CMsi3.jpg" alt="连接"></li></ul><h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><p>用完记得关掉 VPN.</p>]]></content>
     
